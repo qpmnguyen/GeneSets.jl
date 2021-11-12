@@ -1,20 +1,20 @@
 name = "GeneSets"
 uuid = "62a05586-9861-4e00-89f6-54a8aa34fc4c"
 authors = ["Quang Nguyen"]
-version = "0.1.0"
+version = "0.99.0"
 
 [deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
 [compat]
-HTTP = "0.9"
-LightXML = "0.9"
-Parameters = "0.12"
-Documenter = "0.26"
-julia = "1.1"
+Documenter = ">= 0.26"
+LightXML = ">= 0.9"
+Parameters = ">= 0.12"
+julia = ">= 1.1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
