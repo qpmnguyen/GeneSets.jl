@@ -5,21 +5,25 @@
 
 This package implements functionalities for gene set testing in Julia. Currently in development.  
 
+*Currently working on basic data structures and gene set pre-loading functions*  
+
 Supporting pre-loaded gene sets  
 
 - [ ] MSigDB
 - [ ] GO  
 - [ ] Reactome  
-- [ ] KEGG  
 - [ ] DAVID  
 
-Supporting methods  
-- [ ] GSEA
+List of hopeful methods to support  
+
+- [ ] ORA methods (hypergeometric tests)
+- [ ] GSEA  
+- [ ] Single sample methods  
+  - [ ] PLAGE
+  - [ ] GSVA
 - [ ] Category t-test
 - [ ] ROAST/CAMERA linear models
-- [ ] PCGSE
-- [ ] PLAGE
-- [ ] GSVA
+- [ ] PCGSE  
 - [ ] sigPathway
 - [ ] GSA (Tibshirani and Hastie)
 - [ ] PCGSEA
