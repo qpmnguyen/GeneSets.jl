@@ -52,7 +52,8 @@ register(DataDep("MSigDB",
     H_sets = getMSigDB(collection = "H")
     ```
 """
-function getMsigDB(id_type::String="Entrez", collections::Union{String,missing}=missing,     
+function getMsigDB(id_type::String="Entrez", 
+                    collections::Union{String,missing}=missing,     
                     filepath::String=datadep"MsigDB")
     xdoc = LightXML.parse_file(filepath);
     xroot = LightXML.root(xdoc);
